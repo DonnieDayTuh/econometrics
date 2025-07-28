@@ -14,6 +14,7 @@ econ_env/
 # Ignore conda environment if exported
 conda-meta/
 *.yml
+!environment.yml
 
 # Jupyter stuff
 .ipynb_checkpoints/
