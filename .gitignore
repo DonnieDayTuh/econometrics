@@ -1,0 +1,27 @@
+# Ignore Python/conda files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Ignore environment
+.env/
+venv/
+*.env
+*.egg-info/
+.DS_Store
+econ_env/
+
+# Ignore conda environment if exported
+conda-meta/
+*.yml
+
+# Jupyter stuff
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.sav
+*.dta
+*.rds
+*.parquet
